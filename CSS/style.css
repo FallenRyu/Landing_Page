@@ -67,6 +67,7 @@ a {
   padding: 50px;
   justify-content: center;
   gap: 20px;
+  padding: 130px;
 }
 
 .Hero__Description {
@@ -88,12 +89,16 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
-  background-color: gray;
+
   width: 450px;
   height: 250px;
   text-align: center;
   display: flex;
   align-items: center;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: navy;
 }
 
 .Button {
@@ -113,9 +118,70 @@ a {
   padding-top: 10px;
 }
 
+.Information {
+  padding: 130px 0;
+}
 .Information_Title {
   text-align: center;
   padding: 20px;
   font-size: 36px;
   color: #1f2937;
+}
+
+.Quotes {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  font-style: italic;
+
+  display: flex;
+  flex-direction: column;
+  padding: 130px;
+
+  font-size: 24px;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.Quotes_para {
+  text-align: end;
+
+  font-weight: 600;
+}
+
+.CTA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  padding: 130px;
+}
+
+.CTA_Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #3882f6;
+  border-radius: 1.2rem;
+  padding: 2rem;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.Button--CTA {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+.Bold {
+  font-weight: bold;
 }
