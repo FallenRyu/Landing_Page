@@ -30,6 +30,10 @@ li {
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /*---------------------------------------------------------------------------------------------------RESET CSS---------------------------------------------------------------------------- */
 
 .Navigation {
@@ -37,6 +41,7 @@ li {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 ul a {
@@ -49,4 +54,52 @@ ul {
   text-decoration-style: none;
   display: flex;
   gap: 16px;
+  padding: 0 15px;
+}
+
+a {
+  color: #ffffff;
+}
+.Hero {
+  display: flex;
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 50px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Hero__Description {
+  flex-basis: 400px;
+}
+
+.Hero_Title {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.Hero_Paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.Img {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  background-color: gray;
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.Button {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 5px 25px;
+  text-decoration: none;
+  border-radius: 0.75rem;
 }
